@@ -4,9 +4,9 @@ class Auth {
   constructor() {
     this.auth0 = new auth0.WebAuth({
       // the following three lines MUST be updated
-      domain: <YOUR_DOMAIN>,
-      audience: 'https://<YOUR_DOMAIN>/userinfo',
-      clientID: <YOUR_CLIENT_ID>,
+      //domain: <YOUR_DOMAIN>,
+      //audience: 'https://<YOUR_DOMAIN>/userinfo',
+      //clientID: <YOUR_CLIENT_ID>,
       redirectUri: 'http://localhost:3000/callback',
       responseType: 'token id_token',
       scope: 'openid profile'
